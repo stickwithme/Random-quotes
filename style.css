@@ -29,3 +29,13 @@ button:hover {
   display: block;
   margin-top: 10px;
 }
+
+#quote {
+  font-style: italic;
+  min-height: 40px;
+}
+
+#quote::before,
+#quote::after {
+  content: '"';
+}
