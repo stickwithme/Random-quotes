@@ -1,7 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #333;
-  color: #fff
+  /* Dark background color */
+  color: #fff;
+  /* Text color */
 }
 
 .container {
@@ -10,32 +12,48 @@ body {
   text-align: center;
 }
 
-
-button {
-  padding: 10px 20;
+.btn {
+  padding: 10px 20px;
   font-size: 16px;
   background-color: #007bff;
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-button:hover {
-  background-color: #0056b3
+.btn:hover {
+  background-color: #0056b3;
 }
 
-#author {
-  display: block;
-  margin-top: 10px;
+#toggle-favorite-btn {
+  display: none;
 }
 
-#quote {
+.quote {
   font-style: italic;
-  min-height: 40px;
 }
 
-#quote::before,
-#quote::after {
+.quote::before,
+.quote::after {
   content: '"';
+}
+
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.favorite-card {
+  background-color: #f9f9f9;
+  color: darkslategray;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 25%;
+}
+
+.author {
+  font-style: italic;
 }

@@ -1,48 +1,56 @@
 const quotes = [
   {
-    quote:
-      'Успех — это способность идти от поражения к поражению, не теряя энтузиазма',
-    author: 'Уинстон Черчиль',
+    quote: 'The only way to do great work is to love what you do',
+    author: 'Steve Jobs',
+    isFavorite: false,
   },
   {
-    quote: 'Будьте той переменой, которую хотите увидеть в мире',
-    author: 'Махатма Ганди',
+    quote: 'Innovation distinguishes between a leader and a follower',
+    author: 'Steve Jobs',
+    isFavorite: false,
   },
   {
-    quote:
-      'Выберите себе работу по душе, и вам не придется работать ни одного дня в своей жизни',
-    author: 'Конфуций',
+    quote: "Your time is limited, so don't waste it living someone else's life",
+    author: 'Steve Jobs',
+    isFavorite: false,
   },
   {
-    quote:
-      'Единственный способ сделать что-то очень хорошо — любить то, что ты делаешь',
-    author: 'Стив Джобс',
+    quote: 'Strive not to be a success, but rather to be of value',
+    author: 'Albert Einstein',
+    isFavorite: false,
   },
   {
-    quote: 'Секрет успеха — это делать обычные вещи необыкновенно хорошо',
-    author: 'Джон Д. Рокфеллер',
+    quote: 'The only thing we have to fear is fear itself',
+    author: 'Franklin D. Roosevelt',
+    isFavorite: false,
   },
   {
-    quote: 'Трудности — это шанс стать лучше',
-    author: 'Дюк Эллингтон',
-  },
-  {
-    quote: 'Неудача — это просто возможность начать снова, но уже более мудро',
-    author: 'Генри Форд',
-  },
-  {
-    quote:
-      'Каждая великая мечта начинается с мечтателя. Всегда помните, у вас есть сила, терпение и страсть, чтобы достичь звезд и изменить мир',
-    author: 'Гарриет Тубман',
-  },
-  {
-    quote: 'Мудрость — это способность держать дистанцию от своих эмоций',
-    author: 'Далай-лама',
+    quote: 'Life is what happens when you’re busy making other plans',
+    author: 'John Lennon',
+    isFavorite: false,
   },
   {
     quote:
-      'Чтобы достичь величия, мы должны не только действовать, но и мечтать, не только планировать, но и верить',
-    author: 'Анатоль Франс',
+      'Success is not final, failure is not fatal: It is the courage to continue that counts',
+    author: 'Winston Churchill',
+    isFavorite: false,
+  },
+  {
+    quote:
+      'The greatest glory in living lies not in never falling, but in rising every time we fall',
+    author: 'Nelson Mandela',
+    isFavorite: false,
+  },
+  {
+    quote:
+      'The future belongs to those who believe in the beauty of their dreams',
+    author: 'Eleanor Roosevelt',
+    isFavorite: false,
+  },
+  {
+    quote: 'You miss 100% of the shots you don’t take',
+    author: 'Wayne Gretzky',
+    isFavorite: false,
   },
 ]
 
